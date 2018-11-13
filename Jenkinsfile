@@ -21,13 +21,13 @@ pipeline {
 				script {
 					// def policyEvaluation = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'juice-shop', iqStage: 'build', jobCredentialsId: 'nodeuser'
                     nexusPolicyEvaluation failBuildOnNetworkError: true, iqApplication: selectedApplication('juice-shop'), iqScanPatterns: [[scanPattern: '**/node_modules/*']], iqStage: 'build', jobCredentialsId: 'nodeuser'
-                    SCAN_URL = "${policyEvaluation.applicationCompositionReportUrl}"
+                    // SCAN_URL = "${policyEvaluation.applicationCompositionReportUrl}"
                 }
       		}
     	}
         stage('Scan result'){
             steps {
-                echo "scan url: ${SCAN_URL}"
+                // echo "scan url: ${SCAN_URL}"
                 echo "user: ${USER}"
                 echo "job name: ${JOB_NAME}"
                 echo "build id: ${BUILD_ID}"
