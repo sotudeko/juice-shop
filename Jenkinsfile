@@ -32,7 +32,6 @@ pipeline {
                 echo "build id: ${BUILD_ID}"
                 echo "build url: ${BUILD_URL}"
                 echo "build tag: ${BUILD_TAG}"
-                echo "build version: ${BUILD_VERSION}"
             }
         }
     }
