@@ -74,13 +74,14 @@ async function createUsers () {
   const users = await loadStaticData('users')
 
   await Promise.all(
-    users.map(async ({ email, password, customDomain, key, isAdmin }) => {
+    users.map(async ({ email, password, customDomain, key, isAdmin, profileImage }) => {
       try {
         const completeEmail = customDomain ? email : `${email}@${config.get('application.domain')}`
         const user = await models.User.create({
           email: completeEmail,
           password,
-          isAdmin
+          isAdmin,
+          profileImage: profileImage || 'default.svg'
         })
         datacache.users[key] = user
       } catch (err) {
@@ -125,7 +126,6 @@ function createProducts () {
     if (utils.startsWith(product.image, 'http')) {
       const imageUrl = product.image
       product.image = decodeURIComponent(product.image.substring(product.image.lastIndexOf('/') + 1))
-      // utils.downloadToFile(imageUrl, 'app/public/images/products/' + product.image)
       utils.downloadToFile(imageUrl, 'frontend/dist/frontend/assets/public/images/products/' + product.image)
     }
 
@@ -347,10 +347,6 @@ function createSecurityAnswers () {
     UserId: 3,
     answer: 'Stop\'n\'Drop' // http://futurama.wikia.com/wiki/Suicide_booth
   }, {
-    SecurityQuestionId: 9,
-    UserId: 4,
-    answer: 'West-2082' // http://www.alte-postleitzahlen.de/uetersen
-  }, {
     SecurityQuestionId: 7,
     UserId: 5,
     answer: 'Brd?j8sEMziOvvBf§Be?jFZ77H?hgm'
@@ -362,6 +358,30 @@ function createSecurityAnswers () {
     SecurityQuestionId: 7,
     UserId: 7,
     answer: '5N0wb41L' // http://rickandmorty.wikia.com/wiki/Snuffles
+  }, {
+    SecurityQuestionId: 1,
+    UserId: 8,
+    answer: 'I even shared my pizza bagels with you!'
+  }, {
+    SecurityQuestionId: 1,
+    UserId: 9,
+    answer: 'azjTLprq2im6p86RbFrA41L'
+  }, {
+    SecurityQuestionId: 1,
+    UserId: 10,
+    answer: 'NZMJLjEinU7TFElDIYW8'
+  }, {
+    SecurityQuestionId: 8,
+    UserId: 11,
+    answer: 'Dr. Dr. Dr. Dr. Zoidberg'
+  }, {
+    SecurityQuestionId: 9,
+    UserId: 12,
+    answer: 'West-2082' // http://www.alte-postleitzahlen.de/uetersen
+  }, {
+    SecurityQuestionId: 7,
+    UserId: 13,
+    answer: 'Zaya'
   }]
 
   return Promise.all(

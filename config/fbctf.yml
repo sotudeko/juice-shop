@@ -227,4 +227,9 @@ ctf:
     loginAmyChallenge:
       name: Andorra
       code: AD
-
+    resetPasswordBjoernOwaspChallenge:
+      name: Kazakhstan
+      code: KZ
+    accessLogDisclosureChallenge:
+      name: Singapore
+      code: SG

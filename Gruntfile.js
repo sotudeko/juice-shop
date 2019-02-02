@@ -26,13 +26,15 @@ module.exports = function (grunt) {
               'frontend/dist/frontend/**',
               'config/*.yml',
               'data/*.js',
-              'data/static/*.yml',
+              'data/static/**',
               'encryptionkeys/**',
               'ftp/**',
               'lib/**',
               'models/*.js',
               'routes/*.js',
-              'node_modules/**'
+              'node_modules/**',
+              'views/**',
+              'uploads/complaints/.gitkeep'
             ],
             dest: 'juice-shop_<%= pkg.version %>/'
           }

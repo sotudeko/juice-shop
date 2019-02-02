@@ -20,39 +20,39 @@ where this project was mentioned or used!
 
 ## Web Links
 
-* Blog post on [Security Boulevard](https://securityboulevard.com):
-  [From Dev to InfoSec Part 1 – The Journey Begins](https://securityboulevard.com/2018/08/from-dev-to-infosec-part-1-the-journey-begins/)
-* Blog post on
-  [Null Byte :: WonderHowTo](https://null-byte.wonderhowto.com):
-  [Beginner's Guide to OWASP Juice Shop, Your Practice Hacking Grounds for the 10 Most Common Web App Vulnerabilities](https://null-byte.wonderhowto.com/how-to/beginners-guide-owasp-juice-shop-your-practice-hacking-grounds-for-10-most-common-web-app-vulnerabilities-0185103/)
-  :godmode:
-* Blog posts on
-  [DevelopSec - Developing Better Security](https://www.developsec.com/):
-  * [Installing OWASP JuiceShop with Docker](https://www.developsec.com/2018/05/10/installing-owasp-juiceshop-with-docker/)
-    ([Youtube](https://www.youtube.com/watch?v=ftS8I7WeKtw))
-  * [Installing OWASP JuiceShop with Heroku](https://www.developsec.com/2018/05/15/installing-owasp-juiceshop-with-heroku/)
-    ([Youtube](https://www.youtube.com/watch?v=umrLbJkJRN0))
-  * [Burp Extension – Juice Shop Routes](https://www.developsec.com/2018/05/18/burp-extension-juice-shop-routes/)
-    ([Youtube](https://www.youtube.com/watch?v=o628SfvwHp0)) :godmode:
-* Blog posts on
-  [Jason Haley - Ramblings from an Independent Consultant](http://www.jasonhaley.com/):
-  * [How to Setup OWASP Juice Shop on Azure (Part 1 of 3)](http://www.jasonhaley.com/post/How-to-Setup-OWASP-Juice-Shop-on-Azure-%28Part-1-of-3%29)
-  * [Setup OWASP Juice Shop in Web App for Containers (Part 2 of 3)](http://www.jasonhaley.com/post/Setup-OWASP-Juice-Shop-in-Web-App-for-Containers-%28Part-2-of-3%29)
-  * [Setup OWASP Juice Shop in Azure Container Instances (Part 3 of 3)](http://www.jasonhaley.com/post/Setup-OWASP-Juice-Shop-in-Azure-Container-Instances-%28Part-3-of-3%29)
-* Blog post on [Josh Grossman's blog](https://joshcgrossman.com):
-  [Setting up an OWASP Juice Shop CTF](https://joshcgrossman.com/2018/03/15/setting-up-an-owasp-juice-shop-ctf/)
-* Blog post on [Mozilla Hacks](https://hacks.mozilla.org):
-  [Hands-On Web Security: Capture the Flag with OWASP Juice Shop](https://hacks.mozilla.org/2018/03/hands-on-web-security-capture-the-flag-with-owasp-juice-shop/)
-* Blog post (:de:) on [heise Developer](https://www.heise.de/developer):
-  [Sicherheits-Etikette: Security in der Softwareentwicklung](https://www.heise.de/developer/artikel/Sicherheits-Etikette-Security-in-der-Softwareentwicklung-3986402.html)
-  :mega:
+### Pod- & Webcasts
+
+* [HackerSploit](https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q)
+  Youtube channel:
+  * [How To Install OWASP Juice Shop](https://youtu.be/tvNKp1QXV_8)
+  * [Web App Penetration Testing - #13 - CSRF (Cross Site Request Forgery)](https://youtu.be/TwG0Rd0hr18)
+    :bulb:
+  * [Web App Penetration Testing - #14 - Cookie Collection & Reverse Engineering](https://youtu.be/qtr0qtptYys)
+    :bulb:
+  * [Web App Penetration Testing - #15 - HTTP Attributes (Cookie Stealing)](https://youtu.be/8s3ChNKU85Q)
+    :bulb:
+  * [OWASP Juice Shop - SQL Injection](https://youtu.be/nH4r6xv-qGg)
+    :godmode:
+* [Application Security Podcast](https://securityjourney.com/application-security-podcast):
+  * Episode 4.17:
+    [The Joy of the Vulnerable Web: JuiceShop (S04E17)](https://securityjourney.com/blog/the-joy-of-the-vulnerable-web-juiceshops04e17/)
+  * Episode 4.20:
+    [Security Culture Hacking: Disrupting the Security Status Quo (S04E20)](https://www.securityjourney.com/blog/security-culture-hacking-disrupting-the-security-status-quo-s04e20/)
+    :mega:
+* Recorded live streams from the
+  [Twitch](https://aka.ms/DevSlopTwitch)/[Mixer](https://aka.ms/DevSlop-Mixer)
+  [OWASP DevSlop](https://devslop.co/) Show:
+  * [OWASP DevSlop E12 - Juice Shop with Björn Kimminich](https://www.twitch.tv/videos/337620852)
+    ([Youtube](https://youtu.be/KEYWRtGNDEc)) :godmode:
 * Webcast recording on
   [Signal Sciences](https://vimeo.com/signalsciences):
   [Secure Development Lessons from Purposely Insecure Applications](https://vimeo.com/241965102/40f6b1778b)
 * [7 Minute Security](https://7ms.us) Podcast:
   * Episode #318:
     [Interview with Bjorn Kimminich of OWASP Juice Shop](https://7ms.us/7ms-318-interview-with-bjorn-kimminich-of-owasp-juice-shop/)
-  * Shout outs in various episodes: [#310](https://7ms.us/7ms-310/),
+  * Shout outs in various episodes:
+    [#342](https://7ms.us/7ms-342-interview-with-matt-mccullough/),
+    [#310](https://7ms.us/7ms-310/),
     [#309](https://7ms.us/7ms-309-password-cracking-in-the-cloud-part-2/),
     [#306](https://7ms.us/7ms-306-a-peek-into-the-7ms-mail-bag-part-2/)
     and [#282](https://7ms.us/7ms-282-a-peek-into-the-7ms-mail-bag/)
@@ -81,6 +81,45 @@ where this project was mentioned or used!
   [All you need is Zaproxy - Security Testing for WebApps Made Easy](https://www.youtube.com/watch?v=AQX84p9NhqY)
   * [Example integration as a Docker Compose script](https://github.com/Soluto/webdriverio-zap-proxy)
   * [Scan results of the example integration](https://jsfiddle.net/62aedL6n/)
+* Interview on [OWASP 24/7](https://soundcloud.com/owasp-podcast)
+  Podcast:
+  [Less than 10 Minutes Series: The Juice Shop Project](https://soundcloud.com/owasp-podcast/less-than-10-minutes-series-the-juice-shop-project)
+
+### Blogs & Articles
+
+* Blog post on [Omer Levi Hevroni's blog](https://www.omerlh.info/):
+  [Hacking Juice Shop, the DevSecOps Way](https://www.omerlh.info/2018/12/23/hacking-juice-shop-the-devsecops-way/)
+* Blog post on [Jannik Hollenbach's blog](https://medium.com/@j12934):
+  [Testing out ModSecurity CRS with OWASP JuiceShop](https://medium.com/@j12934/testing-out-modsecurity-crs-with-owasp-juiceshop-649830932365)
+* OWASP Portland Chapter meeting writeup on the
+  [Daylight Blog](https://thedaylightstudio.com/blog):
+  [Vulnerability Hunting Practice Using OWASP Juice Shop](https://thedaylightstudio.com/blog/2018/11/20/vulnerability-hunting-practice-using-owasp-juice-shop)
+* Blog post on [Security Boulevard](https://securityboulevard.com):
+  [From Dev to InfoSec Part 1 – The Journey Begins](https://securityboulevard.com/2018/08/from-dev-to-infosec-part-1-the-journey-begins/)
+* Blog post on
+  [Null Byte :: WonderHowTo](https://null-byte.wonderhowto.com):
+  [Beginner's Guide to OWASP Juice Shop, Your Practice Hacking Grounds for the 10 Most Common Web App Vulnerabilities](https://null-byte.wonderhowto.com/how-to/beginners-guide-owasp-juice-shop-your-practice-hacking-grounds-for-10-most-common-web-app-vulnerabilities-0185103/)
+  :godmode:
+* Blog posts on
+  [DevelopSec - Developing Better Security](https://www.developsec.com/):
+  * [Installing OWASP JuiceShop with Docker](https://www.developsec.com/2018/05/10/installing-owasp-juiceshop-with-docker/)
+    ([Youtube](https://www.youtube.com/watch?v=ftS8I7WeKtw))
+  * [Installing OWASP JuiceShop with Heroku](https://www.developsec.com/2018/05/15/installing-owasp-juiceshop-with-heroku/)
+    ([Youtube](https://www.youtube.com/watch?v=umrLbJkJRN0))
+  * [Burp Extension – Juice Shop Routes](https://www.developsec.com/2018/05/18/burp-extension-juice-shop-routes/)
+    ([Youtube](https://www.youtube.com/watch?v=o628SfvwHp0)) :godmode:
+* Blog posts on
+  [Jason Haley - Ramblings from an Independent Consultant](http://www.jasonhaley.com/):
+  * [How to Setup OWASP Juice Shop on Azure (Part 1 of 3)](http://www.jasonhaley.com/post/How-to-Setup-OWASP-Juice-Shop-on-Azure-%28Part-1-of-3%29)
+  * [Setup OWASP Juice Shop in Web App for Containers (Part 2 of 3)](http://www.jasonhaley.com/post/Setup-OWASP-Juice-Shop-in-Web-App-for-Containers-%28Part-2-of-3%29)
+  * [Setup OWASP Juice Shop in Azure Container Instances (Part 3 of 3)](http://www.jasonhaley.com/post/Setup-OWASP-Juice-Shop-in-Azure-Container-Instances-%28Part-3-of-3%29)
+* Blog post on [Josh Grossman's blog](https://joshcgrossman.com):
+  [Setting up an OWASP Juice Shop CTF](https://joshcgrossman.com/2018/03/15/setting-up-an-owasp-juice-shop-ctf/)
+* Blog post on [Mozilla Hacks](https://hacks.mozilla.org):
+  [Hands-On Web Security: Capture the Flag with OWASP Juice Shop](https://hacks.mozilla.org/2018/03/hands-on-web-security-capture-the-flag-with-owasp-juice-shop/)
+* Blog post (:de:) on [heise Developer](https://www.heise.de/developer):
+  [Sicherheits-Etikette: Security in der Softwareentwicklung](https://www.heise.de/developer/artikel/Sicherheits-Etikette-Security-in-der-Softwareentwicklung-3986402.html)
+  :mega:
 * Blog Post on
   [Stuart Winter-Tear's Blog](https://stuartwintertear.net):
   [OWASP Juice Shop Vulnerable Webapp](https://stuartwintertear.net/owasp-juice-shop-vulnerable-webapp)
@@ -88,9 +127,6 @@ where this project was mentioned or used!
 * Blog posts on [OWASP Summit 2017](https://owaspsummit.org):
   *  [Juice Shop v4.0.0 Live Release](https://owaspsummit.org/2017/06/15/Juice-Shop-Live-Release-v4.html)
   *  [Juice Shop's call to pre-summit action](https://owaspsummit.org/2017/05/27/Juice-Shops-call-to-pre-summit-action.html)
-* Interview on [OWASP 24/7](https://soundcloud.com/owasp-podcast)
-  Podcast:
-  [Less than 10 Minutes Series: The Juice Shop Project](https://soundcloud.com/owasp-podcast/less-than-10-minutes-series-the-juice-shop-project)
 * Vulnerable website collection on
   [Bonkers About Tech](https://www.bonkersabouttech.com):
   [40+ Intentionally Vulnerable Websites To (Legally) Practice Your Hacking Skills](https://www.bonkersabouttech.com/security/40-intentionally-vulnerable-websites-to-practice-your-hacking-skills/392)
@@ -114,8 +150,12 @@ where this project was mentioned or used!
 
 ## Lectures and Trainings
 
-* [Finding Website Vulnerabilities with Burp](https://www.packtpub.com/mapt/video/networking_and_servers/9781788399678/81304/81308/finding-website-vulnerabilities-with-burp) chapter :godmode: of the [Mastering Kali Linux Network Scanning](https://www.packtpub.com/networking-and-servers/mastering-kali-linux-network-scanning-video) video course by Brian Johnson :dollar:
-* [University lecture on "IT Security"](https://github.com/bkimminich/it-security-lecture) as Open Educational Resources material by Björn Kimminich
+* [Finding Website Vulnerabilities with Burp](https://www.packtpub.com/mapt/video/networking_and_servers/9781788399678/81304/81308/finding-website-vulnerabilities-with-burp)
+  chapter :godmode: of the
+  [Mastering Kali Linux Network Scanning](https://www.packtpub.com/networking-and-servers/mastering-kali-linux-network-scanning-video)
+  video course by Brian Johnson :dollar:
+* [University lecture on "IT Security"](https://github.com/bkimminich/it-security-lecture)
+  as Open Educational Resources material by Björn Kimminich
 * [Descargar aqui el taller OWASP Top 10 Hands On basado en OWASP Top 10 y Juice Shop](https://drive.google.com/drive/folders/0B6zv033D1iK9eTJId2RhZkJFTlk?usp=sharing)
   (:es:) by Mateo Martinez, Gerardo Canedo and Maxiimiliano Alonzo,
   [OWASP Uruguay Chapter](https://www.owasp.org/index.php/Uruguay)
@@ -126,29 +166,47 @@ where this project was mentioned or used!
 
 ## Conference and Meetup Appearances
 
-#### Upcoming
+#### 2019
 
+* [Back to Basics: Hacking OWASP JuiceShop](https://www.owasp.org/index.php/Knoxville#Past_Meetings)
+  by Jeremy Kelso,
+  [OWASP Knoxville Chapter Meeting](https://www.owasp.org/index.php/Knoxville),
+  24.01.2019
+
+#### 2018
+
+* [Secure Your Pipeline](https://www.facebook.com/events/441842706348978/)
+  by Omer Levi Hevroni, Negev Web Developers Meetup, 27.12.2018
+  ([Slides](https://www.slideshare.net/SolutoTLV/secure-your-pipeline))
+* [Juice Shop: OWASP's most broken Flagship](https://www.owasp.org/index.php/OWASP_BeNeLux-Days_2018#tab=Conference_Day)
+  by Björn Kimminich,
+  [OWASP BeNeLux Days 2018](https://www.owasp.org/index.php/OWASP_BeNeLux-Days_2018),
+  30.11.2018 ([Youtube](https://youtu.be/Lu0-kDdtVf4) :bulb:)
+* [OWASP Zap](https://www.owasp.org/index.php/OWASP_BeNeLux-Days_2018#tab=Conference_Day)
+  by David Scrobonia,
+  [OWASP BeNeLux Days 2018](https://www.owasp.org/index.php/OWASP_BeNeLux-Days_2018),
+  30.11.2018 ([Youtube](https://youtu.be/iaZaPuQ6ams))
+* [The traditional/inevitable OWASP Juice Shop update](https://owasp.github.io/german-owasp-day/archive/2018/)
+  by Björn Kimminich,
+  [German OWASP Day 2018](https://owasp.github.io/german-owasp-day/archive/2018/),
+  20.11.2018 ([Youtube](https://youtu.be/2oNfZo2H4uA))
 * [Workshop: OWASP Juice Shop](https://owasp.github.io/german-owasp-day/archive/2018/)
   by Björn Kimminich,
   [German OWASP Day 2018](https://owasp.github.io/german-owasp-day/archive/2018/),
   19.11.2018
-* [The traditional/inevitable OWASP Juice Shop update](https://owasp.github.io/german-owasp-day/archive/2018/)
-  by Björn Kimminich,
-  [German OWASP Day 2018](https://owasp.github.io/german-owasp-day/archive/2018/),
-  20.11.2018
-* [Juice Shop: OWASP's most broken Flagship](https://www.owasp.org/index.php/OWASP_BeNeLux-Days_2018#tab=Conference_Day)
-  by Björn Kimminich, [OWASP BeNeLux Days 2018](https://www.owasp.org/index.php/OWASP_BeNeLux-Days_2018),
-  30.11.2018
-
-#### 2018
-
 * [OWASP Portland Chapter Meeting - OWASP Juice Shop!](http://calagator.org/events/1250474481)
-  facilitated by David Quisenberry, [OWASP Portland Chapter](https://www.owasp.org/index.php/Portland),
+  facilitated by David Quisenberry,
+  [OWASP Portland Chapter](https://www.owasp.org/index.php/Portland),
   08.11.2018
 * [OWASP Juice Shop - Public Lecture](https://www.facebook.com/events/674384206291349)
-  by Björn Kimminich, [TalTech Infotehnoloogia Kolledž](https://www.facebook.com/itcollege.ee),
-  24.10.2018
-* [JUGHH: Security Hackathon](https://www.meetup.com/jug-hamburg/events/254885956/) by [iteratec](https://www.iteratec.de/), [Java User Group Hamburg](https://www.meetup.com/jug-hamburg), 11.10.2018
+  by Björn Kimminich,
+  [TalTech Infotehnoloogia Kolledž](https://www.facebook.com/itcollege.ee),
+  24.10.2018 ([Youtube](https://youtu.be/79G46CQ3IMk?t=158) :godmode:
+  _starting 14:55_)
+* [JUGHH: Security Hackathon](https://www.meetup.com/jug-hamburg/events/254885956/)
+  by [iteratec](https://www.iteratec.de/),
+  [Java User Group Hamburg](https://www.meetup.com/jug-hamburg),
+  11.10.2018
 * [Playing with OWASP Juice Shop](https://mozilla.or.id/en/space/events/258-playing-with-owasp-juice-shop.html)
   by Mohammad Febri R, [Mozilla Indonesia](https://mozilla.or.id/),
   05.08.2018
@@ -163,7 +221,8 @@ where this project was mentioned or used!
   26.07.2018 ([Youtube](https://www.youtube.com/watch?v=ztfgip-UhWw))
 * [Building an AppSec Program with a Budget of $0: Beyond the OWASP Top 10](https://appseceurope2018a.sched.com/event/EgXt/building-an-appsec-program-with-a-budget-of-0-beyond-the-owasp-top-10)
   by Chris Romeo, [OWASP AppSec Europe 2018](https://2018.appsec.eu),
-  06.07.2018 ([Youtube](https://www.youtube.com/watch?v=5RmHQKeXgk4)) :mega:
+  06.07.2018 ([Youtube](https://www.youtube.com/watch?v=5RmHQKeXgk4))
+  :mega:
 * [OWASP Juice Shop: Betreutes Hacken](https://www.meetup.com/de-DE/owasp-karlsruhe/events/251041169/)
   with
   [OWASP Stammtisch Karlsruhe](https://www.owasp.org/index.php/OWASP_Stammtisch_Karlsruhe),
