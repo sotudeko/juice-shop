@@ -90,11 +90,7 @@ pipeline {
     stage('Nexus IQ Scan (CLI)'){
       steps {
           sh "rm -v ${SBOM_FILE}"
-      }
-      post {
-        success {
           sh 'java -jar /opt/nxiq/nexus-iq-cli -t build -s http://localhost:8070 -a admin:admin123 -i juice-shop-ci-cli .'
-        }
       }
     }
   }
