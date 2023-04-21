@@ -60,6 +60,5 @@ config/*.yml
 !config/tutorial.yml
 !config/oss.yml
 
-*.json
 *.xml
 
