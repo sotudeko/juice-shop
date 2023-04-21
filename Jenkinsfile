@@ -15,6 +15,7 @@ pipeline {
         }
       }
     }
+
     stage('Install dependencies') {
       steps {
         sh 'npm install'
@@ -62,7 +63,7 @@ pipeline {
               enableDebugLogging: false, \
               failBuildOnNetworkError: false, \
               iqApplication: selectedApplication('juice-shop-ci-target'), \
-              iqScanPatterns: [[scanPattern: '**/npm-shrinkwrap.json' ], [scanPattern: '**/package-lock.json'], [scanPattern: '**/yarn.lock'], [scanPattern: '**/pnpm-lock.yaml']],
+              iqScanPatterns: [[scanPattern: '**/package-lock.json'], [scanPattern: '**/package.lock']],
               iqInstanceId: 'nexusiq', \
               iqStage: 'build', \
               jobCredentialsId: 'Sonatype'
@@ -88,7 +89,7 @@ pipeline {
 
     stage('Nexus IQ Scan (CLI)'){
       steps {
-          sh "rm ${SBOM_FILE}"
+          sh "rm -v ${SBOM_FILE}"
       }
       post {
         success {
