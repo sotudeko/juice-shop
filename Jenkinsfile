@@ -63,7 +63,7 @@ pipeline {
               enableDebugLogging: false, \
               failBuildOnNetworkError: false, \
               iqApplication: selectedApplication('juice-shop-ci-target'), \
-              iqScanPatterns: [[scanPattern: '**/package-lock.json'], [scanPattern: '**/package.lock']],
+              iqScanPatterns: [[scanPattern: '**/package.json'], [scanPattern: '**/package-lock.lock']],
               iqInstanceId: 'nexusiq', \
               iqStage: 'build', \
               jobCredentialsId: 'Sonatype'
